@@ -1,5 +1,5 @@
 body{
-    margin: 0 px;
+    margin: 0px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .h1{
@@ -30,7 +30,7 @@ P{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    height: 800px;
     padding-bottom: 50px;
 }
 
@@ -42,3 +42,33 @@ section{
     color: white;
     font-weight: 700px;
 }
+.dream-area{
+    background-image: url("picture/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    height: 40%;
+}
+.experience-area{
+    background-image: url(picture/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
+
+
